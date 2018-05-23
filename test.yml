@@ -6,3 +6,7 @@
   - name: echo
     shell: echo 'okokokok'
     become: true
+    
+  - name: echo file
+    shell: echo '1231' > /tmp/aa
+    become: true
